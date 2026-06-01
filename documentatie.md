@@ -427,7 +427,6 @@ def cross_entropy(probs, y_onehot):
     """
     Entropia încrucișată categorială (Categorical Cross-Entropy Loss).
     Măsoară diferența dintre distribuția prezisă și cea reală.
-    eps=1e-9 previne log(0) care ar produce valori -inf.
 
     Args:
         probs:    probabilitățile prezise,          shape (N, 10)
